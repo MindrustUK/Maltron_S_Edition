@@ -19,10 +19,10 @@ enum Layers {
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     [LAYER_BASE] = LAYOUT_maltron_8x16(
         //COL_0     COL_1    COL_2    COL_3    COL_4    COL_5   COL_6    COL_7    COL_8     COL_9    COL_10         COL_11   COL_12   COL_13    COL_14    COL_15
-        KC_NO,      KC_PSCR, KC_F12,  KC_F11,  KC_F10,  KC_F9,  KC_F8,   KC_F7,   KC_F6,    KC_F5,   KC_F4,         KC_F3,   KC_F2,   KC_F1,    KC_ESC,   KC_LGUI, // ROW 0
-        KC_NO,      KC_GRV,  KC_RBRC, KC_LBRC, KC_TAB,  KC_NO,  KC_NO,   SW_LAY,  KC_NO,    KC_NO,   KC_NO,         KC_NO,   KC_NUM,  KC_SCRL,  KC_NO,    KC_LOPT, // ROW 1
+        KC_NO,      KC_PSCR, KC_F12,  KC_F11,  KC_F10,  KC_F9,  KC_F8,   KC_F7,   KC_F6,    KC_F5,   KC_F4,         KC_F3,   KC_F2,   KC_F1,    KC_ESC,   KC_GRV,  // ROW 0
+        KC_NO,      KC_NUHS, KC_RBRC, KC_LBRC, KC_TAB,  KC_NO,  KC_NO,   SW_LAY,  KC_NO,    KC_NO,   KC_NO,         KC_NUM,  KC_RCTL, KC_SCRL,  KC_NO,    KC_LOPT, // ROW 1
         KC_NO,      KC_0,    KC_9,    KC_8,    KC_7,    KC_6,   KC_ALGR, KC_NO,   KC_NO,    KC_NO,   KC_NO,         KC_MPLY, KC_VOLU, KC_VOLD,  KC_MUTE,  KC_TAB,  // ROW 2
-        KC_NO, 	    KC_5,    KC_4,    KC_3,    KC_2,    KC_1,   KC_QUOT, KC_RCTL, SW_LCTL,  KC_NO,   KC_NO,         KC_HOME, KC_PGUP, KC_INS,   KC_PAUS,  KC_PEQL, // ROW 3
+        KC_NO,      KC_5,    KC_4,    KC_3,    KC_2,    KC_1,   KC_QUOT, SW_LCTL, KC_DEL,   KC_NO,   KC_NO,         KC_HOME, KC_PGUP, KC_INS,   KC_PAUS,  KC_PEQL, // ROW 3
         KC_NUBS,    KC_Q,    KC_B,    KC_P,    KC_M,    KC_G,   KC_X,    SW_LALT, KC_BSPC,  KC_UP,   KC_LGUI,       KC_END,  KC_PGDN, KC_DEL,   KC_BSPC,  KC_PPLS, // ROW 4
         KC_UNDS,    KC_R,    KC_L,    KC_O,    KC_D,    KC_F,   KC_J,    KC_NO,   KC_RGHT,  KC_DOWN, KC_LEFT,       KC_PSLS, KC_P9,   KC_P8,    KC_P7,    KC_PENT, // ROW 5
         KC_CIRC,    KC_N,    KC_H,    KC_E,    KC_T,    KC_A,   KC_S,    KC_DOT,  KC_I,     KC_ENT,  KC_CAPS,       KC_PAST, KC_P6,   KC_P5,    KC_P4,    KC_PDOT, // ROW 6
